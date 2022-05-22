@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        //צרו פונקציה שמחזירה מס ראנדומלי בין 0 ל10//
+        // function printRandomnumber() {
+        //     var rnd = Math.floor(Math.random() * 10);
+        //     return rnd;
+        // }
+
+        //   printRandomnumber()
+        //צרו פונקציה המקבל כארגומנט מס ומחזירה מס רנדומאלי מאפס ועד למס שהתרבל//
+        //    function randNumb(rnd){
+        //        var rnd = Math.floor(Math.random()*6)
+        //        return rnd;
+        //    }
+        //    randNumb(5)
+        //צרו פונקציה המקבלת מס מהמשתמש ומייצרת מס רנדומאלי בין 0 ל 10 אם המספר זהה מדפיסה הודעת הצלחה אחרת הודעת כישלון//
+        //  function numberFromuser(){
+        //   var rndnum = +prompt("add arandom number");
+        //   var rnd = Math.floor(Math.random()*11);
+        //   if(rnd==rndnum){
+        //       console.log("succsesfull")
+        //   }
+        //   else{
+        //       console.log("unsecsess")
+        //   }
+        //  }
+        //  numberFromuser()
+        ///צרו פונקציה שמאכלסת מערך של 10 איברים במספרים רנדומלים בין 0 ל100//
+        // function randNumbers() {
+        //     var rndArray = [];
+        //     for (var i = 0; i < 10; i++) {
+        //         rndArray.push(Math.floor(Math.random() * 100))
+        //     }
+        //     console.log(rndArray)
+        // }
+        //צרו פונקציה המקבלת מספר מהמשתמש ומייצרת מספר רנדומלי בין 0 ל10 הפונקציה מחזירה את הגדול מבנייהם//
+        // function rndPrompt(randnumber,rndNum){
+        //     var randnumber = +prompt("add arndom number")
+        //     var rndNum=Math.floor(Math.random())
+        //     console.log(Math.max(randnumber,rndNum))
+        //     return Math.max(randnumber,rndNum)
+        // }        
+        // rndPrompt()
+        //צרו פונקציה המקבלת מהמשתמש 5מספרים ומדפיסה את הנמוך  מביניהם
+        function printFive() {
+            var numbers = [];
+            
+            for (var i = 0; i < 5; i++) {
+                var num = +prompt("add anumbers")
+                numbers.push(num)
+
+            }
+            var min = Math.min(...numbers)
+            console.log(min)
+
+
+        }
+        printFive()
+
+    </script>
+</body>
+
+</html>
